@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nature</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="Nature.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Images/favicon%20000.ico" type="image/x-icon">
+
+</head>
+<body>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand text-primary" href="#">Nature</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#planetEarth">Planet Earth</a>
+                    <a class="dropdown-item" href="#flowers">Flowers</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#worldMap">World Map</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#footer" tabindex="-1">Footer</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Images/fall-autumn-red-season.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Look deep into nature, and then you will understand everything better.</h3>
+                <p> Albert Einstein</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/pexels-photo-39811.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Over every mountain there is a path, although it may not be seen from the valley.</h3>
+                <p>Theodore Roethke</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="Images/pexels-photo-236047.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>In nature, light creates the color. In the picture, color creates the light.</h3>
+                <p>Hans Hofmann</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="nextSlide container-fluid">
+    <h5>We need to find God, and he cannot be found in noise and restlessness. God is the friend of silence. See how
+        nature - trees, flowers, grass- grows in silence; see the stars, the moon and the sun, how they move in
+        silence... We need silence to be able to touch souls</h5>
+    <p>Mother Teresa</p>
+</div>
+
+
+<div id="about" class="container" style="background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/forest.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Forest</h5>
+                    <p class="card-text">The clearest way into the Universe is through a forest wilderness.</p>
+                    <a id="forest" href="#forestQuotes" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/tree-sea.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Island</h5>
+                    <p class="card-text">Our knowledge is a little island in a great ocean of non knowledge.</p>
+                    <a id="island" href="#islandQuotes" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/home-forest.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Wooden House</h5>
+                    <p class="card-text">The palace is not safe when the cottage is not happy.</p>
+                    <a id="woodenHouse" href="#woodenHouseQuotes" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row " style="margin: 3% 0% 3% 0%;padding-bottom: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/train.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Train</h5>
+                    <p class="card-text">Sometimes that light at the end of the tunnel is a train.</p>
+                    <a id="train" href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/winter.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Sky</h5>
+                    <p class="card-text">No one is free, even the birds are chained to the sky.</p>
+                    <a id="sky" href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/mauntain.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+                <div class="card-body">
+                    <h5 class="card-title">Mountain</h5>
+                    <p class="card-text">Life is a mountain of solvable problems, and I enjoy that.</p>
+                    <a id="mountain" href="#" class="btn btn-primary">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="forestQuotes" class="container"
+     style=" display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Forest</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/forest1.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/forest2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/forest3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <p class="mb-0">My favourite places on earth are the wild waterways where the forest opens its arms and a silver
+            curve of river folds the traveller into its embrace</p>
+        <footer class="blockquote-footer text-dark">Rory MacLean</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <p class="mb-0">There's nothing more frightening - and exciting - than getting lost in a forest. There is a
+            journey towards the light, and you've got to go through the dark to get to the light. That's what the forest
+            is all about.</p>
+        <footer class="blockquote-footer text-dark">David Farr</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <p class="mb-0">When I visited Syrian special forces along the front lines, I was given extraordinary amounts of
+            detail. They gave me the code numbers for the various positions they've got, told me where the rebels were -
+            about 800 meters away in a forest. I met soldiers who had been wounded but were still serving.</p>
+        <footer class="blockquote-footer text-dark">Robert Fisk</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <p class="mb-0">The Amazon is not just a set of trees. It is a set of 25 million people. If we don't create real
+            economic opportunities for them, the practical result is to encourage disorganized economic activities that
+            results in the further destruction of the rain forest.</p>
+        <footer class="blockquote-footer text-dark">Roberto Unger</footer>
+    </blockquote>
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <p class="mb-0">Votes are like trees, if you are trying to build a forest. If you have more trees than you have
+            forests, then at that point the pollsters will probably say you will win.</p>
+        <footer class="blockquote-footer text-dark">Dan Quayle</footer>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+
+
+<div id="islandQuotes" class="container"
+     style="display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Island</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/island1.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/island2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/island3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <h2>Greenland is the worlds largest island</h2>
+        <p class="mb-0">Greenland is the worlds largest island. While Australia is an island, it is considered a
+            continent. Greenland has an area of 2,166,086 square km, but a meager population of 56,452. The populations
+            is over 85% Inuit. The remaining inhabitants are mainly Danish. The average annual temperature of Greenland
+            varies between -9 to 7 °C.Greenland is an autonomous country within the Kingdom of Denmark. Greenland is a
+            group of islands and Greenland is the name of the largest, most populated one. Greenland has been inhabited
+            on and off since 2500 BC. Denmark established rule in the 18th century. In 1979 Denmark granted home rule,
+            in a relationship known as the Commonwealth of the Realm and in 2008 Greenland voted to transfer more powers
+            to the local government. The Danish royal government is only in charge of foreign affairs, security,
+            financial policy, and providing a subsidy to each citizen.Greenland is bordered by the Atlantic Ocean to the
+            southeast, the Greenland Sea to the east, the Artic Ocean to the north, and Baffin Bay to the west. The
+            nearest countries to Greenland are Iceland to the east and Canada to the west. The country also contains the
+            world’s largest national park. Scientists have thought for decades that the ice sheet covering the country
+            may actually conceal three separate island land masses that have been bridged by glaciers over the last
+            geologic cooling period.</p>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+
+
+<div id="woodenHouseQuotes" class="container"
+     style=" display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Wooden House</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/wooden-house1.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/wooden-house2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/wooden-house3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <h2>VILLA KGET – ENSUES-LA-REDONNE, FRANCE</h2>
+        <p class="mb-0">The brainchild of Christophe Migozzi of Bonte & Migozzi Architectes, the Villa KGET is located
+            in Ensues-la-Redonne in France, and covers an area of 205.0 m 2 . Constructed in 2016, this awe-inspiring
+            wooden house in the forest surrounded by agaves and pines has low walls built of stones along with a
+            breathtaking Mediterranean view. The whole building is triangular, inspired by Greek mythology and
+            Mediterranean culture. According to the architect, this building represents a contemporary perspective of
+            “Ulysses’ vessel that surfs on a slope like a crab trawler”. Owing to the protected nature of the site, the
+            architect had to come up with a way to build the structure without disrupting the environment. Finally, a
+            solution presented itself – the house would be built on stilts. In this manner, no intrusive constructions
+            would occur on the land. A few trees still had to be cut down but they were quickly replaced by new
+            varieties, like eucalyptus trees, fig trees etc. The timber used in the construction of this house imparts
+            both strength and lightness to the structure. Douglas wood is the main building material, while the cover is
+            composed of vertically-placed larch brackets. </p>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+
+
+<div id="trainQuotes" class="container"
+     style=" display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Train</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/train1.jpg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/train2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/train3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <h2>The Longest Trains in the World</h2>
+        <p class="mb-0">High durability of the track network, modularity of the wagons, and the ability to use more than
+            one locomotives to haul much larger weights enabled trains to become very long during late 20th and early
+            21st century. Before that time the trains were mostly limited by the power of a single locomotive and
+            configurations of the train network (road crossing frequencies, distances between track switching points and
+            more. The first longer trains started appearing when train managers started combining two regular trains
+            into one, giving the entire train structure a power boost by placing 2nd locomotive in the middle of wagons.
+            Later large haul trains were powered by mighty diesel-electric locomotives with their power going all the
+            way up to 6000 bhp and even beyond.
+
+            The lists of longest trains can be separated into several categories that take into the account the specific
+            records that were broken. Passenger trains mostly have only passenger carriages, but they can have other car
+            types such as car-cargo. General freight trains mix their car configuration by need, often focusing on
+            single or double-stacked container cars. Bulk freight train cargo trains carry only a single product in
+            incredible quantities, often using several powerful locomotives to drive hundreds of freight cars. </p>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+<div id="skyQuotes" class="container"
+     style=" display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Sky</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/train1.jpg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/train2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/train3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <h2>Beautiful Sky</h2>
+        <pre class="mb-0">
+            Oh tonight, shines down a guiding light
+            Showing a former life
+            When we felt so alive
+            In a sea of light swimming before my eyes
+            Hold on to what is right
+            Open your open mind
+            Oh no please don't let me go no please
+            Don't leave me here to grieve innocent times
+            In the beginning I felt we were living I felt so alive
+            Under beautiful skies
+            Oh tonight slip in and out of life
+            Yet feeling so alive
+            Lost in the sea of light
+            Oh no please don't let me go no please
+            Don't leave me here to grieve innocent times
+            In the beginning I felt we were living I felt so alive
+            Under beautiful skies
+            Oh no please don't let me go no please
+            Don't let me go no please Beautiful Skies
+            In the beginning I felt we were living I felt so alive
+            Under beautiful skies</pre>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+
+
+<div id="mountainQuotes" class="container"
+     style=" display: none;background-color: lightslategrey;padding-top: 2%;margin-top: 2%">
+    <h1 class="text-center container">Mountain</h1>
+    <div class="row" style="padding-top: 3%;margin-top: 2%">
+        <div class=" col-sm-4">
+            <div class="card">
+                <img src="Images/mountain1.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="Images/mountain2.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card justify">
+                <img src="Images/mountain3.jpeg" class="card-img-top" alt="..." style="height: 20rem">
+            </div>
+        </div>
+    </div>
+
+    <blockquote class="blockquote text-center" style="margin-top: 3%;color: white">
+        <h2>Joe Walsh, “Rocky Mountain Way”</h2>
+        <p class="mb-0">The words to “Rocky Mountain Way” came to Joe Walsh when he was mowing his front yard in
+            Colorado, and he walked away from the running lawnmower to write them down. The lawnmower rolled into his
+            neighbor’s garden and destroyed it. The song, and the album it appeared on, The Smoker You Drink, The Player
+            You Get, was Walsh’s breakthrough as a solo artist. </p>
+    </blockquote>
+    <a href="Nature.html" class="btn btn-primary btn-lg btn-block container">Back</a>
+</div>
+
+
+<div id="planetEarth" class="container" style="padding-top: 4%">
+    <p class="h1 text-center" style="margin: 3% 0%">Planet Earth</p>
+    <hr>
+    <div class="align-left" style="width: 50%;margin-top: 3%;float: left">
+        <blockquote class="blockquote text-center">
+            <p class=" mb-0">Truth is, I'll never know all there is to know about you just as you will never know all
+                there
+                is to
+                know about me. Humans are by nature too complicated to be understood fully. So, we can choose either to
+                approach
+                our fellow human beings with suspicion or to approach them with an open mind, a dash of optimism and a
+                great
+                deal of candour.</p>
+            <footer class="blockquote-footer">Tom Hanks</footer>
+        </blockquote>
+    </div>
+    <div class="embed-responsive embed-responsive-16by9" style="width: 50%">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6v2L2UGZJAM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+</div>
+
+<div id="flowers" style="padding-top: 5%">
+    <p class="h1 text-center" style="margin: 3% 0%">Flowers</p>
+    <hr class=" text-center" style="width: 80%">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-interval="1000"
+         data-ride="carousel">
+        <div class="carousel-inner container">
+            <div class="carousel-item active">
+                <img src="Images/flower1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower4.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower5.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower6.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower7.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower8.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower9.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flower10.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="worldMap" class="container" style="padding-top: 4%">
+    <p class="h1 text-center" style="margin: 3% 0%">World Map</p>
+    <hr>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1563370.0587821193!2d43.919516480191554!3d40.06521391918369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40155684e773bac7%3A0xd0b4757aeb822d23!2z1YDVodW11aHVvdW_1aHVtg!5e0!3m2!1shy!2s!4v1548000145800"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="page-footer font-small bg-dark stylish-color-dark pt-4" style="margin-top: 3%">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left text-white">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto">
+
+                <!-- Content -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Dear Visitor</h5>
+                <p>We thank you for visiting our Nature Page. This Nature Page (“page”) is a
+                    public platform, where you can view our posts. Through this page we endeavour to connect with you
+                    and keep you abreast of
+                    our offerings and other information. </p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Content</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#planetEarth">Planet Earth</a>
+                    </li>
+                    <li>
+                        <a href="#flowers">Flowers</a>
+                    </li>
+                    <li>
+                        <a href="#worldMap">World Map</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a id="footerForest" href="#forestQuotes">Forest</a>
+                    </li>
+                    <li>
+                        <a id="footerIsland" href="#islandQuotes">Island</a>
+                    </li>
+                    <li>
+                        <a id="footerWoodenHouse" href="#woodenHouseQuotes">Wooden House</a>
+                    </li>
+                    <li>
+                        <a id="footerTrain" href="#trainQuotes">Train</a>
+                    </li>
+                    <li>
+                        <a id="footerSky" href="#skyQuotes">Sky</a>
+                    </li>
+                    <li>
+                        <a id="footerMountain" href="#mountainQuotes">Mountain</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+        <li class="list-inline-item">
+            <h5 class="mb-1">Register for free</h5>
+        </li>
+        <li class="list-inline-item">
+            <a href="#!" class="btn btn-danger btn-rounded" data-toggle="modal" data-target=".bd-example-modal-xl">Sign
+                up!</a>
+
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+                 aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign up Nature page</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1"
+                                   role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Sign up</a>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                        data-target="#multiCollapseExample2" aria-expanded="false"
+                                        aria-controls="multiCollapseExample2">Nothing Gold Can Stay
+                                </button>
+                                <button class="btn btn-primary" type="button" data-toggle="collapse"
+                                        data-target="#multiCollapseExample3" aria-expanded="false"
+                                        aria-controls="multiCollapseExample3">Nature Images
+                                </button>
+
+                            </p>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                        <div class="card card-body">
+                                            <!-- Default form register -->
+                                            <form class="text-center border border-light p-5">
+
+                                                <p class="h4 mb-4">Sign up</p>
+
+                                                <div class="form-row mb-4">
+                                                    <div class="col">
+                                                        <!-- First name -->
+                                                        <input type="text" id="defaultRegisterFormFirstName"
+                                                               class="form-control" placeholder="First name">
+                                                    </div>
+                                                    <div class="col">
+                                                        <!-- Last name -->
+                                                        <input type="text" id="defaultRegisterFormLastName"
+                                                               class="form-control" placeholder="Last name">
+                                                    </div>
+                                                </div>
+
+                                                <!-- E-mail -->
+                                                <input type="email" id="defaultRegisterFormEmail"
+                                                       class="form-control mb-4" placeholder="E-mail">
+
+                                                <!-- Password -->
+                                                <input type="password" id="defaultRegisterFormPassword"
+                                                       class="form-control" placeholder="Password"
+                                                       aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                                                <small id="defaultRegisterFormPasswordHelpBlock"
+                                                       class="form-text text-muted mb-4">
+                                                    At least 8 characters and 1 digit
+                                                </small>
+
+                                                <!-- Phone number -->
+                                                <input type="text" id="defaultRegisterPhonePassword"
+                                                       class="form-control" placeholder="Phone number"
+                                                       aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                                                <small id="defaultRegisterFormPhoneHelpBlock"
+                                                       class="form-text text-muted mb-4">
+                                                    Optional - for two step authentication
+                                                </small>
+
+                                                <!-- Newsletter -->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input"
+                                                           id="defaultRegisterFormNewsletter">
+                                                    <label class="custom-control-label"
+                                                           for="defaultRegisterFormNewsletter">Subscribe to our
+                                                        newsletter</label>
+                                                </div>
+
+                                                <!-- Sign up button -->
+                                                <button class="btn btn-info my-4 btn-block" type="submit">Sign in
+                                                </button>
+
+
+                                                <hr>
+
+
+                                            </form>
+                                            <!-- Default form register -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                        <div class="card card-body">
+                                            <p class="h3">"Nothing Gold Can Stay"</p>
+                                            <p class="mb-0" style="color: black">
+                                                "Nature's first green is gold,
+                                                <br>
+                                                Her hardest hue to hold.
+                                                <br>
+                                                Her early leaf's a flower;
+                                                <br>
+                                                But only so an hour.
+                                                <br>
+                                                Then leaf subsides to leaf.
+                                                <br>
+                                                So Eden sank to grief,
+                                                <br>
+                                                So dawn goes down to day.
+                                                <br>
+                                                Nothing gold can stay."</p><br><br>
+                                            <footer class="blockquote-footer text-dark">Robert Frost,</footer>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                        <div class="card card-body">
+
+
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="mdb-lightbox no-margin">
+
+                                                        <figure class="col">
+                                                            <img alt="picture"
+                                                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg"
+                                                                 class="img-fluid">
+                                                        </figure>
+
+                                                        <figure class="col">
+                                                            <img alt="picture"
+                                                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+                                                                 class="img-fluid"/>
+                                                        </figure>
+
+                                                        <figure class="col">
+                                                            <img alt="picture"
+                                                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+                                                                 class="img-fluid"/>
+                                                        </figure>
+
+
+                                                        <figure class="col">
+
+                                                            <img alt="picture"
+                                                                 src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg"
+                                                                 class="img-fluid"/>
+                                                        </figure>
+
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item  rounded-circle" style="padding: 2%;background-color: darkblue">
+            <a class="btn-floating btn-fb mx-1 " target="_blank" href="https://www.facebook.com">
+                <i class="fab fa-facebook-f text-white"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item  rounded-circle " style="padding: 2%;background-color: aqua">
+            <a class="btn-floating btn-tw mx-1" target="_blank" href="https://twitter.com">
+                <i class="fab fa-twitter text-white"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item  rounded-circle " style="padding: 2%;background-color: orange">
+            <a class="btn-floating btn-gplus mx-1" target="_blank" href="https://plus.google.com/discover">
+                <i class="fab fa-google-plus-g text-white"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item rounded-circle " style="padding: 2%;background-color: dodgerblue">
+            <a class="btn-floating btn-li mx-1" target="_blank" href="https://www.linkedin.com">
+                <i class="fab fa-linkedin-in text-white"> </i>
+            </a>
+        </li>
+        <li class="list-inline-item rounded-circle " style="padding: 2%;background-color: deeppink">
+            <a class="btn-floating btn-dribbble mx-1" target="_blank" href="https://dribbble.com">
+                <i class="fab fa-dribbble text-white"> </i>
+            </a>
+        </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3"><p>© 2019 Copyright:
+        <span class="text-white">Grihor_Hovakimyan</span></p>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+<script src="Jquery.js"></script>
+<script src="Nature.js"></script>
+</body>
+</html>
